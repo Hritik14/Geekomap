@@ -11,6 +11,3 @@ Steps To Insatall.<br/>
 <b>Make Sure that:</b>
 You have <i>lib curl</i> enabled in your php extensions <br/>
 You have enabled <i>short_open_tag</i> in <i>php.ini</i> file
-
-//Modified by Milind
-hello world.
