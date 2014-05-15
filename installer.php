@@ -75,8 +75,7 @@ if(isset($_POST['installer_submitted'])) {
 		}
 
 		if(!mysql_num_rows( mysql_query("SHOW TABLES LIKE 'places'"))) { // CHANGE- AUTHOR: Hritik Vijay DATE: 1-May-2014 (Added skills section)
-			if(!mysql_query("DROP TABLE IF EXISTS 'places';
-				CREATE TABLE `places` (
+			if(!mysql_query("DROP TABLE IF EXISTS 'places';CREATE TABLE `places` (
 			  `id` int(9) NOT NULL AUTO_INCREMENT,
 			  `approved` int(1) DEFAULT NULL,
 			  `title` varchar(100) NOT NULL,
